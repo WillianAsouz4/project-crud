@@ -1,6 +1,7 @@
 const express = require('express')
 const path = require('path')
 const db = require('./database')
+const router = require('./routes') 
 
 const app = express()
 
@@ -17,12 +18,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 // Definido a pasta para receber dados via pots (Formulario)
 app.set(express.urlencoded({extended: true}))
 
-//rotas
-app.get('/', (req, res) =>{
-    res.render('index', {
-        title: 'Titulo Teste'
-    })
-})
+// definido as rotas
+app.use('/', router)
 
 // 404 error (not found)
 app.use((req, res) =>{
