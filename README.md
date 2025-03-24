@@ -1,3 +1,5 @@
+README - Servidor e Site com Express, Node.js, EJS e MongoDB (Em Desenvolvimento)
+Este projeto é um servidor backend e um site web em desenvolvimento, construído com as seguintes tecnologias:
 
 Node.js: Ambiente de tempo de execução JavaScript do lado do servidor.
 Express: Framework web rápido, flexível e minimalista para Node.js.
@@ -57,3 +59,6 @@ models/: Diretório contendo os modelos de dados do MongoDB.
 config.js: Arquivo de configuração do banco de dados.
 Contribuição
 Este projeto está em desenvolvimento ativo, e contribuições são bem-vindas! Se você tiver alguma ideia, sugestão ou correção, por favor, abra uma issue ou envie um pull request.
+
+Licença
+Este projeto está licenciado sob a licença [nome da licença, ex: MIT].
