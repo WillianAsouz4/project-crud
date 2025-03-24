@@ -1,5 +1,3 @@
-README - Servidor e Site com Express, Node.js, EJS e MongoDB (Em Desenvolvimento)
-Este projeto é um servidor backend e um site web em desenvolvimento, construído com as seguintes tecnologias:
 
 Node.js: Ambiente de tempo de execução JavaScript do lado do servidor.
 Express: Framework web rápido, flexível e minimalista para Node.js.
