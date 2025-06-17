@@ -1,20 +1,15 @@
 //rotas
 const router = require('express').Router()
-
 const CustomersController = require('../controllers/customers')
+const indexController = require('../controllers/index')
 
-router.get('/', (req, res) =>{
-    res.render('index', {
-        title: 'Titulo Teste'
-    })
-})
+router.get('/', indexController.index)
 
-router.get('/register', (req, res) =>{
-    res.render('register', {
-        title: 'Cadastro'
-    })
-})
-
+// registro
+router.get('/register', CustomersController.index)
 router.post('/register/add', CustomersController.add)
+
+//llista
+router.ger('/lister', CustomersController.listUsers)
 
 module.exports = router
